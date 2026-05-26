@@ -7,4 +7,6 @@ However, when I extract the surface of a simple `vtkUnstructuredGrid` modelling 
 
 This is verified by the output of the Test `test_extract_surface.cpp` which you can find at the latest run of the github workflow of this repository. 
 
+Running `test_extract_surface` also produces two VTU files `bipyramid.vtu` and `surface.vtu` containing the `vtkUnstructuredGrid` produces in this Test. I provided them in this repository. You can open these files with [Paraview](https://www.paraview.org/) in order to check that these `UnstructuredGrids` look just as expected.
+
 Note that this github workflow uses the latest version of VTK i.e. the master! 
